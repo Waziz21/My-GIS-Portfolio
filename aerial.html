@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aerial Mapping</div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="index.html#technicalskills">Technical Skills</a></li> 
+               <li><a href="index.html#projects">Projects</a></li> 
+               <li><a href="index.html#contact">Contact</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Aerial Mapping</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+               <li><a href="index.html" onclick="toggleMenu()">Home</a></li> 
+               <li><a href="index.html#technicalskills" onclick="toggleMenu()">Technical Skills</a></li> 
+               <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li> 
+               <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="kunjir-beach-tourism">
+        <p class="section__text__p1">Aerial Mapping</p>
+        <h1 class="title">Kunjir Beach Tourism Area</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/aerialbeach1.png" alt="Kunjirbeach" width="350" height="350">
+                    <img src="./assets/aerialbeach2.png" alt="Kunjirbeach" width="350" height="350">
+                    <div class="text-container">
+                    <p>The aerial mapping project of Kunjir Beach Tourism Area in South Lampung Regency was conducted in August 2022 as part of a research and volunteering initiative by Universitas Lampung. Covering approximately 350,000 square meters, the survey utilized a DJI Mavic Pro equipped with a 1/2.3” CMOS camera (12.35 MP) and integrated GPS, supported by four manually placed Ground Control Points (GCPs). The mission aimed to generate high-resolution geospatial data to assist in tourism planning, coastal monitoring, and sustainable spatial development. Data processing was carried out using Agisoft Metashape, resulting in deliverables such as an orthomosaic map, Digital Surface Model (DSM), 3D mesh, contour lines, and metadata documentation. This project provided essential baseline data for infrastructure planning, environmental assessment, and hazard mitigation, contributing to both local development and academic engagement in real-world spatial analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geothermal-waterfall-tourism">
+        <p class="section__text__p1">Aerial Mapping</p>
+        <h1 class="title">Geothermal and Waterfall Tourism Area</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/aerialgeo1.png" alt="Geothermal and Waterfall Tourism Area" width="350" height="350">
+                    <img src="./assets/aerialgeo2.png" alt="Geothermal and Waterfall Tourism Area" width="350" height="350">
+                    <img src="./assets/Aerialgeo3.jpeg" alt="Geothermal and Waterfall Tourism Area" width="320" height="350">
+                    <div class="text-container">
+                    <p>The aerial mapping of the Geothermal and Waterfall Tourism Area near Kunjir Beach, located on the slopes of Mount Rajabasa and approximately 1–2 miles from the coastline, was conducted to support tourism planning and environmental documentation within South Lampung Regency. The survey, covering an area of about 125,000 square meters, was carried out using the same UAV platform—a DJI Mavic Pro equipped with a 1/2.3” CMOS camera (12.35 MP) and integrated GPS—along with four Ground Control Points (GCPs) for spatial accuracy. Conducted under the academic and volunteer program of Universitas Lampung, the project aimed to generate orthophoto maps, Digital Surface Models (DSM), and 3D visualizations through Agisoft Metashape processing. The data products serve as foundational resources for promoting sustainable tourism, analyzing terrain conditions, and guiding infrastructure development in this unique eco-tourism zone known for its geothermal activity and natural waterfalls.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li> 
+                    <li><a href="index.html#technicalskills">Technical Skills</a></li> 
+                    <li><a href="index.html#projects">Projects</a></li> 
+                    <li><a href="index.html#contact">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Waddan Aziz. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

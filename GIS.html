@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">GIS</div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="index.html#technicalskills">Technical Skills</a></li> 
+               <li><a href="index.html#projects">Projects</a></li> 
+               <li><a href="index.html#contact">Contact</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">GIS</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+               <li><a href="index.html" onclick="toggleMenu()">Home</a></li> 
+               <li><a href="index.html#technicalskills" onclick="toggleMenu()">Technical Skills</a></li> 
+               <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li> 
+               <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="PSW">
+        <p class="section__text__p1">GIS</p>
+        <h1 class="title">Road Condition Survey - North Lampung</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/Road1.jpg" alt="LC13" width="507" height="307">
+                    <img src="./assets/Road2.jpg" alt="LC17" width="507" height="307">
+                    <img src="./assets/Road3.jpg" alt="LC21" width="507" height="307">
+                    <img src="./assets/GISJALAN.png" alt="LC23" width="350" height="350">
+                    <div class="text-container">
+                    <p>The road condition survey was conducted across all city and regency roads—excluding provincial infrastructure—within Kotabumi, North Lampung, covering a total of 2,143.14 kilometers. Held from November 21 to 30, 2022, the project was part of the 2022 Road and Bridge Data Inventarization Program for the Indonesian Ministry of Public Works and Housing (PUPR). The survey utilized two vehicle-mounted cameras for continuous road recording, handheld GPS devices for accurate route tracking, and smartphone cameras to document bridge structures. The deliverables included comprehensive photo and video documentation, as well as a final report featuring road condition data segmented into 200-meter sections, compiled into an Excel spreadsheet. The project was carried out by a planning consultant team, in which I participated as a field surveyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="MTD">
+        <p class="section__text__p1">GIS</p>
+        <h1 class="title">Topographic Survey for Construction</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/survey12.jpeg" alt="Margatigadam" width="350" height="350">
+                    <img src="./assets/GISTOPO.png" alt="MargatigaMap" width="350" height="350">
+                    <img src="./assets/cont23.png" alt="Geothermal and Waterfall Tourism Area" width="350" height="350">
+                    <div class="text-container">
+                    <p>This topographic survey was conducted over a 5-hectare site in Padang Cermin District, Pesawaran Regency, from April 3 to 5, 2024. The survey aimed to support housing construction planning by providing accurate elevation data for cut and fill calculations. The team employed a GNSS RTK system in radio mode, utilizing one base and one rover unit to collect precise topographic points across the area. The final deliverables included elevation data, a detailed contour map, and CAD drawings, serving as the primary reference for the site’s earthwork estimation. This project was executed under a private contractor, where I contributed as a field surveyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="EL">
+        <p class="section__text__p1">GIS</p>
+        <h1 class="title">Indonesian Mapping Program - Sulawesi</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/GISslwsi1.png" alt="MANGO" width="350" height="350">
+                    <img src="./assets/GISslwsi2.png" alt="MANGO" width="350" height="350">
+                    <img src="./assets/GISslwsi3.png" alt="MANGO" width="350" height="350">
+                    <div class="text-container">
+                    <p>From late 2024 to early 2025, I contributed to the Indonesian Mapping Program in northern Sulawesi as part of the national “One Map” initiative, supporting topographic basemap development under Intermap Technologies. I was involved in the digitization phase of the project, which followed the collection and processing of IFSAR (Interferometric Synthetic Aperture Radar) data. During my tenure, I completed more than 40 mapping grids—each approximately 13 kilometers wide—by digitizing features from satellite imagery and refining them with high-resolution DEM and DTM data outputs. The final deliverables were thematically classified topographic maps meeting national standards, following strict quality control and topological correction. This effort forms a crucial first phase of a multi-year plan to map all of Indonesia, contributing to land governance, infrastructure development, and spatial data integration at a national scale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li> 
+                    <li><a href="index.html#technicalskills">Technical Skills</a></li> 
+                    <li><a href="index.html#projects">Projects</a></li> 
+                    <li><a href="index.html#contact">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Waddan Aziz. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

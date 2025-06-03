@@ -95,13 +95,13 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    top: 100%;
-    right: 0;
+    top: 1;
+    right: 1;
     background-color: white;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu-links a {
@@ -285,6 +285,10 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+}
+
+.text-container {
+    gap: 1rem;
 }
 
 .arrow {

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Remote Sensing</div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="index.html#technicalskills">Technical Skills</a></li> 
+               <li><a href="index.html#projects">Projects</a></li> 
+               <li><a href="index.html#contact">Contact</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Remote Sensing</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+               <li><a href="index.html" onclick="toggleMenu()">Home</a></li> 
+               <li><a href="index.html#technicalskills" onclick="toggleMenu()">Technical Skills</a></li> 
+               <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li> 
+               <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="LCPR">
+        <p class="section__text__p1">Remote Sensing</p>
+        <h1 class="title">Land Cover Prediction</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/13.png" alt="LC13" width="350" height="350">
+                    <img src="./assets/17.png" alt="LC17" width="350" height="350">
+                    <img src="./assets/21.png" alt="LC21" width="350" height="350">
+                    <img src="./assets/23.png" alt="LC23" width="350" height="350">
+                    <div class="text-container">
+                    <p>For my undergraduate thesis, I conducted a spatial modeling and land cover change prediction study in the Cigombong Development Subregion (SWP Cigombong), encompassing the subdistricts of Cijeruk, Caringin, and Cigombong in Bogor Regency, West Java. The research utilized a combination of Landsat 8 satellite imagery from 2013 to 2021 and applied the Cellular Automata–Markov Chain (CA-MC) method, assisted by Multilayer Perceptron Neural Network (MLP), to analyze historical land cover transitions and predict changes for 2025. Four primary driving factors—elevation, slope, distance from roads, and distance from rivers—were integrated to support the spatial model. The land cover was classified into seven categories based on national standards, and accuracy assessments were conducted using Kappa statistics and ground truthing, achieving up to 90% agreement. The study concluded that built-up land and dry fields would significantly increase by 2025, while mixed vegetation and forested areas would decline. The results provide insights for sustainable spatial planning in urban fringe regions and support the objectives of Indonesia’s One Map Policy and land-use management efforts. For more information, you could check the full article below.</p>
+                    </div>
+                <h2 class="experience-sub-title project-title">Article Paper</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='index.html'">Article
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="USPD">
+        <p class="section__text__p1">Remote Sensing</p>
+        <h1 class="title">Mt Gede Volume Estimation</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/MtGede1.png" alt="MtGede" width="350" height="350">
+                    <img src="./assets/MtGede2.png" alt="MtGede" width="350" height="350">
+                    <img src="./assets/MtGede3.png" alt="MtGede" width="350" height="350">
+                    <div class="text-container">
+                    <p>As a personal research initiative driven by my interest in geospatial analysis, I conducted a volumetric estimation of Mount Gede using an 8-meter resolution DEM sourced from Indonesia's Ina-Geoportal. The analysis applied the Surface Volume Tool method with a reference plane height set at 750 meters above sea level (MASL) to approximate the mountain’s mass above the surrounding terrain. The result yielded an estimated volume of approximately 294.897 km³ (or 294,897,438,888.85 m³). This project was conducted independently, using publicly available data, basic GIS tools, and straightforward mathematical methods. It is important to note that the result is a rough estimation, not scientifically verified, and should not be considered accurate or authoritative until supported by a professional geological study or peer-reviewed research. Nonetheless, the project reflects my enthusiasm for terrain modeling and exploratory spatial analysis beyond formal academic settings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="SDB">
+        <p class="section__text__p1">Remote Sensing</p>
+        <h1 class="title">Satellite Derived Bathymetry</h1>
+        <div class="project-container">
+            <div class="project-details-container">
+                <div class="article-container">
+                    <img src="./assets/hjvfjh.jpg" alt="SDB" width="750" height="500">
+                    <div class="text-container">
+                    <p>In June 2022, I assisted a colleague from the marine science program in a satellite-derived bathymetry (SDB) project focused on the shallow coastal waters of Lampung Bay, contributing from a geodetic engineering perspective. The study utilized Sentinel-2 multispectral imagery and applied the Lyzenga method to estimate underwater depth variations in shallow zones. Validation of the model was carried out using field-collected echo sounder data and reference points from Indonesia’s national bathymetric charts. While not conducted as part of my own academic research, the project provided hands-on experience in integrating satellite data with ground truth validation to generate both 2D bathymetric maps and semi-3D visualizations, contributing to coastal mapping and marine spatial analysis. The project was exploratory and academic in nature, offering insights into the potential and limitations of remote sensing-based bathymetry in nearshore environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li> 
+                    <li><a href="index.html#technicalskills">Technical Skills</a></li> 
+                    <li><a href="index.html#projects">Projects</a></li> 
+                    <li><a href="index.html#contact">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Waddan Aziz. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
